@@ -30,19 +30,46 @@ public class Main {
 //
 //        prod2.mostrarInformacoes();
 
-        Carro carro1 = new Carro();
-        carro1.descricao = "hatch";
-        carro1.modelo = "Fiesta";
-        carro1.marca = "Ford";
+//        Musica musica1 = new Musica();
+//        musica1.artista = "Queen";
+//        musica1.titulo = "Bohemian Rhapsody";
+//        musica1.duracao = 355;
+//
+//        System.out.println("Tocando agora: " + musica1.titulo);
+//        System.out.println("Artista: " + musica1.artista);
+//        System.out.println("Duracao: " + musica1.duracao + " segundos");
 
-        carro1.exibirInformacoes();
+        //2. Criando a Classe Carro com um Método Simples
 
-        System.out.println();
+//        Carro carro1 = new Carro();
+//        carro1.descricao = "hatch";
+//        carro1.modelo = "Fiesta";
+//        carro1.marca = "Ford";
+//
+//        carro1.exibirInformacoes();
+//
+//        System.out.println();
+//
+//        Carro carro2 = new Carro();
+//        carro2.descricao = "SUV";
+//        carro2.modelo = "TAOS";
+//        carro2.marca = "VW";
+//        carro2.exibirInformacoes();
 
-        Carro carro2 = new Carro();
-        carro2.descricao = "SUV";
-        carro2.modelo = "TAOS";
-        carro2.marca = "VW";
-        carro2.exibirInformacoes();
+        // 1. Criando a Classe Musica (Apenas Atributos)
+
+        Aluno aluno1 = new Aluno();
+        aluno1.nome = "Carlos";
+        aluno1.nota = 8.5;
+
+        aluno1.verificarStatus();
+
+        Aluno aluno2 = new Aluno();
+        aluno2.nome = "Ana";
+        aluno2.nota = 6.0;
+
+        aluno2.verificarStatus();
+
+
     }
 }
