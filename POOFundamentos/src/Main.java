@@ -58,18 +58,26 @@ public class Main {
 
         // 1. Criando a Classe Musica (Apenas Atributos)
 
-        Aluno aluno1 = new Aluno();
-        aluno1.nome = "Carlos";
-        aluno1.nota = 8.5;
+//        Aluno aluno1 = new Aluno();
+//        aluno1.nome = "Carlos";
+//        aluno1.nota = 8.5;
+//
+//        aluno1.verificarStatus();
+//
+//        Aluno aluno2 = new Aluno();
+//        aluno2.nome = "Ana";
+//        aluno2.nota = 6.0;
+//
+//        aluno2.verificarStatus();
 
-        aluno1.verificarStatus();
 
-        Aluno aluno2 = new Aluno();
-        aluno2.nome = "Ana";
-        aluno2.nota = 6.0;
+        ContaBancaria contaBancaria = new ContaBancaria();
+        contaBancaria.titular = "Juliana";
+        contaBancaria.saldo = 1000.00;
 
-        aluno2.verificarStatus();
-
+        contaBancaria.depositar(1000.00);
+        contaBancaria.sacar(200.00);
+        contaBancaria.sacar(1500.00);
 
     }
 }
