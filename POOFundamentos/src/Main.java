@@ -75,9 +75,12 @@ public class Main {
         contaBancaria.titular = "Juliana";
         contaBancaria.saldo = 1000.00;
 
-        contaBancaria.depositar(1000.00);
+        contaBancaria.depositar(500.00);
+        System.out.println("Saldo atual: " + contaBancaria.saldo);
         contaBancaria.sacar(200.00);
+        System.out.println("Saldo após saque: " + contaBancaria.saldo);
         contaBancaria.sacar(1500.00);
+        System.out.println("Saldo final: " + contaBancaria.saldo);
 
     }
 }

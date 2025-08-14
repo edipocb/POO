@@ -3,13 +3,14 @@ public class ContaBancaria {
     public double saldo;
 
     public void depositar(double valor){
-        valor = valor + saldo;
-        System.out.println("Deposito realizado com sucesso! seu novo saldo e " + saldo);
+        saldo = valor + saldo;
+        System.out.println("Deposito realizado com sucesso!");
     }
 
     public void sacar(double valor){
-        valor = valor - saldo;
-        if (valor > saldo){
+
+        if (saldo >= valor){
+            saldo = saldo - valor;
             System.out.println("Saque realizado com sucesso!");
         } else {
             System.out.println("Saldo insuficiente!");
