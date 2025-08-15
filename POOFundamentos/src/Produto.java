@@ -12,6 +12,7 @@ public class Produto {
     private String cor;
     private int unidade;
     private String marca;
+    private int estoque;
 
     public String getNome(){
         return nome;
@@ -21,13 +22,28 @@ public class Produto {
         this.nome = nome;
     }
 
+    public double getEstoque(){
+        return estoque;
+    }
+    public double setEstoque(){
+        return estoque;
+    }
+
+    public double getPreco(){
+        return preco;
+    }
+    public double setPreco(){
+        return preco;
+    }
+
+
+
     public Produto(String nome, double preco, String marca, double tamanho ){
         this.nome = nome;
         this.preco = preco;
         this.marca = marca;
         this.tamanho = tamanho;
     }
-
 
 
     // 2. Metodo? Quais?

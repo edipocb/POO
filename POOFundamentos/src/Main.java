@@ -16,14 +16,17 @@ public class Main {
 
         //Criar variavel do tipo produto//
       // TIPO NOME = new TIPO(); // NEW Produto(); UTILIZADO PARA INSTANCIAR A CLASSE
-        Produto prod1 = new Produto("Monitor", 850.00, "Dell", 14);
+//        Produto prod1 = new Produto("Monitor", 850.00, "Dell", 14);
 //        prod1.nome = "Monitor";
 //        prod1.preco = 850.00;
 //        prod1.marca = "Dell";
+//        System.out.println(prod1);
 
 //      GET = PEGAR
-        System.out.println(prod1.getNome());
-        System.out.println(prod1.getNome());
+
+//        prod1.setNome("Teclado");
+//        System.out.println(prod1.getNome());
+//        System.out.println(prod1.getNome());
 
 //    SET - definir, mudar
 
@@ -33,10 +36,12 @@ public class Main {
 
 //        prod1.mostrarInformacoes();
 
-        Produto prod2 = new Produto("Notebook", 3000.00, "Dell", 15);
+        Produto prod2 = new Produto("Notebook", 3000.00, "Dell", 15, 20);
 //        prod2.nome = "Notebook";
 //        prod2.preco = 3000.00;
 //        prod2.marca = "Dell";
+
+
 
 //        prod2.mostrarInformacoes();
 
@@ -72,30 +77,36 @@ public class Main {
 
         // 1. Criando a Classe Musica (Apenas Atributos)
 
-        Aluno aluno1 = new Aluno("Carlos", 8.5);
+//        Aluno aluno1 = new Aluno("Carlos", 8.5);
 //        aluno1.nome = "Carlos";
 //        aluno1.nota = 8.5;
 //
-        aluno1.verificarStatus();
+//        aluno1.verificarStatus();
 //
-        Aluno aluno2 = new Aluno("Ana", 6.0);
+//        Aluno aluno2 = new Aluno("Ana", 6.0);
 //        aluno2.nome = "Ana";
 //        aluno2.nota = 6.0;
 //
-        aluno2.verificarStatus();
+//        aluno2.verificarStatus();
 
 //      4. Gerenciando uma ContaBancaria
 
-//        ContaBancaria contaBancaria = new ContaBancaria();
+
+//        ContaBancaria contaBancaria = new ContaBancaria("Juliana", 1000.00);
 //        contaBancaria.titular = "Juliana";
 //        contaBancaria.saldo = 1000.00;
-//
+
 //        contaBancaria.depositar(500.00);
-//        System.out.println("Saldo atual: " + contaBancaria.saldo);
+//        System.out.println("Saldo atual: " + contaBancaria.getSaldo());
 //        contaBancaria.sacar(200.00);
-//        System.out.println("Saldo após saque: " + contaBancaria.saldo);
+//        System.out.println("Saldo após saque: " + contaBancaria.getSaldo());
 //        contaBancaria.sacar(1500.00);
-//        System.out.println("Saldo final: " + contaBancaria.saldo);
+//        System.out.println("Saldo final: " + contaBancaria.getSaldo());
+
+
+
+
+
 //
 //        5. Controlando o Estoque de um Produto
 
