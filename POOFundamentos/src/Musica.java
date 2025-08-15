@@ -5,6 +5,17 @@ public class Musica {
         public int duracao;
 
 
-    //Crie uma classe chamada Musica.
-    // Ela deve ter os atributos necessários para armazenar o título, o artista e a duração em segundos da música.
+
+        public Musica(String titulo, String artista, int duracao){
+                this.titulo = titulo;
+                this.artista = artista;
+                this.duracao = duracao;
+        }
+
+
+        public void exibirFichaTecnica(){
+                System.out.println("Titulo: "  + this.titulo);
+                System.out.println("Artista: " + this.artista);
+                System.out.println("Duracao: " + this.duracao);
+        }
 }
